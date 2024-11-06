@@ -80,8 +80,8 @@ function mouseMove(e) {
   positionStartX = e.clientX;
   positionStartY = e.clientY;
 
-  Mario.style.top = Mario.offsetTop - positionY + "px";
-  Mario.style.left = Mario.offsetLeft - positionX + "px";
+  Mario.style.top = `${Mario.offsetTop - positionY}px`;
+  Mario.style.left = `${Mario.offsetLeft - positionX}px`;
 }
 
 function mouseUp(e) {
